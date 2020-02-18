@@ -1,259 +1,156 @@
-/*Sorted in Alphabetical Order*/
-
-body {
-	font-family:  'Oswald', sans-serif;
-	font-size: 90%;
-	color: #666;
-	background-color: #f8f8f8;
-}
-
-.center-2{
-	width: 940px;
-	margin: auto;
-	padding-bottom: 15px;
-	padding-top: 5px;
-}
-
-.center-3{
-	width: 300px;
-	margin: 0 0;
-}
-
-.center-2>h1, .center-2>p{
-	text-align: center;
-}
-
-.center-mid-1{
-	width: 940px;
-	background-color: #e0e9f0;
-	padding-bottom: 15px;
-	padding-top: 5px;
-	clear: left;
-}
-
-.center-mid-2{
-	width: 940px;
-	background-color: #efeae6;
-	padding-bottom: 15px;
-	padding-top: 5px;
-}
-
-.center-mid-3{
-	width: 940px;
-	background-color: green;
-	padding-bottom: 15px;
-	padding-top: 5px;
-}
-
-.center-text {
-	text-align: center;
-}
-
-fieldset {
-	width: 310px;
-	margin-top: 20px;
-	border: 1px solid #d6d6d6;
-	background-color: #ffffff;
-	line-height: 1.6em;
-}
-
-figcaption {
-	font-family: 'Dosis';
-	text-align: center;
-}
-
-footer {
-	text-align: center;
-	clear: left;
-}
-
-h1.center-text
-{
-	font-family: 'Merriweather', serif;
-	font-size: 550%;
-}
-
-.img-1{
-	margin: auto;
-	display: block;
-	width: 50%;
-	height: 50%;
-}
-
-.img-2{
-	margin: auto;
-	width: 30%;
-	height: 270px;
-}
-
-img[src="images/onepiece.jpg"], img[src="images/couple1.jpg"] {
-	margin-left: 10px;
-}
-
-@import url('https://fonts.googleapis.com/css?family=Merriweather|Oswald');
-@import url('https://fonts.googleapis.com/css?family=Dosis');
-
-input[type="text"] {
-	width: 120px;
-	border: 1px solid #d6d6d6;
-	padding: 2px;
-	outline: none;
-}
-
-input[type="text"]:focus, input[type="text"]:hover {
-	background-color: #d0e2f0;
-	border: 1px solid #999999;
-}
-
-input[type="submit"] {
-	border: 1px solid #006633;
-	background-color: #009966;
-	color: #ffffff;
-	border-radius: 5px;
-	padding: 5px;
-	margin-top: 10px;
-}
-
-input[type="submit"]:hover {
-	border: 1px solid #006633;
-	background-color: #00CC33;
-	color: #ffffff;
-	cursor: pointer;
-}
-
-li {
-	list-style-image: url("images/icon-plus.png");
-	line-height: 1.6em;
-}
-
-legend {
-	font-style: italic;
-	color: #666666;
-}
-
-.menu-holder {
-	float: right;
-	position: fixed;
-	text-align: center;
-	height: 50px;
-	background-color: white;
-	right: 0;
-	top: 0;
-	transition: right .3s ease;
-	width: 100%;
-	overflow: auto;
-	max-width: 100%;
-	z-index: 99;
-}
-
-.onepiece-img1 {
-	float: left;
-	width: 48%;
-	height: 300px;
-}
-
 #page {
-	max-width: 940px;
-	min-width: 720px;
-	margin: 10px auto 10px auto;
-	border: 4px  #000;
-	background-color: #ffffff;
-	vertical-align: baseline;
+  border: solid red 5px;
+  margin: 2vw;
+  position: absolute;
+  left: 10%;
+  right: 10%;
+  align-content: center;
+  background-color: #FAFAD2;
+  font-family: 'Noto Sans', sans-serif;
 }
 
-.singing-img1 {
-	width: 48%;
-	height: 300px;
-	margin-left: 4%;
+header {
+  font-size: 300%;
+  font-family: 'Aclonica', sans-serif;
+  text-align: center;
+  margin-top: 2%;
 }
 
-.submit {
-	width: 310px;
-	text-align: right;
+nav {
+  text-align: right;
+  margin-right: 10%;
 }
 
-table {
-	border-spacing: 0px;
+nav a {
+  display: inline-block;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+  color: brown;
 }
 
-td, tr.odd th{
-	text-shadow: 1px 1px 1px #ffffff;
-	background-color: #add8e6;
+a:visited, a:hover {
+  color: brown;
 }
 
-th, td {
-	padding: 5px 30px 5px 10px;
-	border-spacing: 0px;
-	font-size: 90%;
-	margin: 0px;
+.main-content {
+	margin-left: 10%;
+	margin-right: 10%;
 }
 
-th, td {
-	text-align: left;
-	background-color: #e0e9f0;
-	border-top: 2px solid white;
-	border-bottom: 2px solid white;
-	border-right: 2px solid white;
+.main-text{
+  font-size: 200%;
+  font-family: 'Lemonada', cursive;
+  color: black;
+  background-color: rgba(255, 250, 250, 0.5);
+	position: absolute;
+	top: 18%;
+	left: 15%;
+  max-width: 75%;
 }
 
-.title {
-	float: left;
-	width: 160px;
-	clear: left;}
-
-tr.even td, tr.even th {
-	background-color: #90ee90;
+.main-content figure img{
+  max-width: 100%;
 }
 
-tr.head th {
-	color: #fff;
-	background-color: #D3D3D3;
-	border-bottom: 2px solid #547ca0;
-	border-right: 1px solid #749abe;
-	border-top: 1px solid #90b4d6;
-	text-align: center;
-	text-shadow: -1px -1px 1px #666666;
-	letter-spacing: 0.15em;
+.explore {
+  width: 90%;
+  text-align: center;
+  margin-left: 5%;
 }
 
-tr.head th:first-child {
-	/* WebKit is a browser engine used in Apple's Safari browser, Amazon 
-	  Kindle e-book reader, BlackBerry Browser in OS 6 and above.
-	  Not all CSS3 properties work well in all browsers. In a way to ensure that web pages
-	  display as expected in their browsers, vendors like Mozilla and Webkit developed their
-	  own browser-compatible properties. With CSS3, many compatibility issues are now resolved.
-	  However, it is not unusual to still see these properties used in stylesheets.
-	*/
-	/* Webkit property*/
-	-webkit-border-top-left-radius: 5px;
-	/* Mozilla property*/
-	-moz-border-radius-topleft: 5px;
-	/* CSS3 property*/
-	border-top-left-radius: 5px;
-	/* More on border-radius property: https://www.the-art-of-web.com/css/border-radius/ */
+.float-left {
+  float: left;
+  margin-left: 2%;
+  height: 100%;
+  max-width: 30%;
 }
 
-tr.head th:last-child {
-	-webkit-border-top-right-radius: 5px;
-	-moz-border-radius-topright: 5px;
-	border-top-right-radius: 5px;
+.float-left p {
+  text-align: center;
+  border: solid brown 2px;
+  padding-left: 2px;
+  padding-right: 2px;
 }
 
-ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	}
-
-ul li {
-	display: inline;
-	padding: 10px;
-	float: right;
+.float-left-img {
+  display: inline-block;
+  max-width: 100%;
 }
 
-ul li a, ul a :hover, ul li a:focus, ul li a:active {
-	border: none;z`
-	text-decoration: none;
-	color: inherit;
+.float-left-text {
+  text-align: center;
+  font-family: 'Lemonada', cursive;
+  font-size: 150%;
 }
 
+.manga-anime {
+  display: inline-block;
+  float: left;
+  height: 100%;
+  max-width: 43%;
+  margin: 2.5%;
+  border-style: double;
+  border-width: 1%;
+  background-color: white;
+}
+
+.more {
+  text-align: right;
+  font-size: 80%;
+  margin-left: 65%;
+}
+
+.more-text {
+  clear: both;
+  display: block;
+  border: solid #00BFFF 2px;
+  padding: 5px;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  max-width: 60%;
+  margin-top: 0;
+  font-family: 'Lemonada', cursive;
+  font-size: 120%;
+}
+
+.movie {
+  clear: both;
+  text-align: center;
+  margin-left: 12%;
+  margin-right: 14.4%;
+  margin-bottom: 5%;
+  border-style: double;
+  border-width: 1%;
+  background-color: white;
+  padding: 10px;
+}
+
+.movie p {
+  font-family: 'Lemonada', cursive;
+  font-size: 150%;
+}
+
+.stampede-img {
+  max-width: 100%;
+}
+
+.category {
+  display: inline-block;
+}
+
+.category-text {
+  border-style: solid;
+  border-width: 0.5%;
+  border-radius: 5px;
+  background-color: white;
+  max-width: 94%;
+  font-size: 120%;
+  margin-left: 2%;
+}
+
+.category-images {
+  max-width: 90%;
+  margin-right: 10%;
+}
